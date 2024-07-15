@@ -1,0 +1,4 @@
+.PaginaTotal{
+    display: flex;
+    flex-direction: column;
+}
