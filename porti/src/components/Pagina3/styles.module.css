@@ -5,3 +5,118 @@
     align-items: center;
     justify-content: center;
 }
+
+.corpoMaximo{
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+
+.titulo{
+    padding-left: 16px;
+    font-size: 32px;
+    color: var(--brown-700);
+}
+
+.fotoProjeto{
+    width: 534px;
+    background-image: url("../../assets/card1.png");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 256px;
+    border: 3px solid var(--brown-500);
+    border-radius: 20px;
+
+}
+
+.descricaoProjeto{
+    width: 100%;
+    height: 200px;
+    border: 3px solid var(--brown-500);
+    border-radius: 20px;
+    background-color: var(--gray-200);
+}
+
+.corpoCimaProjeto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 24px 0px 24px;
+}
+
+.tituloProjeto{
+    color: var(--brown-700);
+    font-size: 24px;
+}
+
+.dataProjeto{
+    color: var(--brown-400);
+    font-size: 16px;
+}
+
+.textoProjeto{
+    color: var(--brown-500);
+    padding: 8px 24px;
+    line-height: 100%;
+}
+
+
+
+.botoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.botoesEsquerda{
+    display: flex;
+    gap: 8px;
+}
+
+.botoesDireita{
+    display: flex;
+    gap: 8px;
+}
+
+.botao{
+    background-color: var(--brown-400);
+    border: 3px solid var(--brown-500);
+    color: var(--gray-100);
+    border-radius: 8px;
+    padding: 4px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 16px;
+}
+
+.botao:hover{
+    cursor: pointer;
+}
+
+.icone1{
+    width: 16px;
+    height: 16px;
+}
+
+.icone2{
+    width: 16px;
+    height: 16px;
+}
+
+.icone3{
+    width: 20px;
+    height: 20px;
+    rotate: 180deg;
+}
+
+.icone4{
+    width: 20px;
+    height: 20px;
+}

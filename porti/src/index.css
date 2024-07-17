@@ -3,7 +3,7 @@
   font-family: "League Spartan", sans-serif;
   font-optical-sizing: auto;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 500;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,5 +17,11 @@ body {
   display: flex;
   place-items: center;
   min-height: 100vh;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 

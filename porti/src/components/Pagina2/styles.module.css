@@ -5,3 +5,45 @@
     align-items: center;
     justify-content: center;
 }
+
+.corpo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40%;
+    max-height: 400px;
+    gap: 64px;
+}
+
+.corpoHabilidades{
+    background-color: var(--gray-200);
+    width: 410px;
+    height: 100%;
+    border: 3px solid var(--brown-400);
+    border-radius: 20px;
+}
+
+.corpoSobreMim{
+    background-color: var(--gray-200);
+    width: 410px;
+    height: 100%;
+    border: 3px solid var(--brown-400);
+    border-radius: 20px;
+}
+
+.titulo{
+    color: var(--brown-700);
+    font-size: 28px;
+    padding-left: 36px;
+    padding-top: 36px;
+    width: 100%;
+}
+
+.texto{
+    padding: 36px;
+    width: 100%;
+    color: var(--brown-500);
+    font-size: 20px;
+    line-height: 110%;
+}
