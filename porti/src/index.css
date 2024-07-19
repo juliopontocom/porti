@@ -2,7 +2,7 @@
 :root {
   font-family: "League Spartan", sans-serif;
   font-optical-sizing: auto;
-  line-height: 1.5;
+  line-height: 100%;
   font-weight: 500;
 
   font-synthesis: none;
@@ -10,6 +10,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #E5DED8;
+  
 }
 
 body {
