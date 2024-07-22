@@ -1,12 +1,7 @@
 import React from 'react';
 import styles from './styles.module.css';
-import { BsArrowUpCircleFill } from "react-icons/bs";
 
-const Pagina4 = ({ prevPageRef }) => {
-  const scrollToPage = (pageRef) => {
-    pageRef.current.scrollIntoView({ behavior: 'smooth' });
-  };
-
+const Pagina4 = () => {
   return (
     <div className={styles.Pagina4}>
       <div className={styles.corpoMaximo}>
@@ -36,12 +31,6 @@ const Pagina4 = ({ prevPageRef }) => {
             <div className={styles.enviar}>Enviar</div>
           </div>
         </div>
-      </div>
-      <div className={styles.setas}>
-          <BsArrowUpCircleFill 
-            className={styles.seta} 
-            onClick={() => scrollToPage(prevPageRef)} 
-          />
       </div>
     </div>
   );

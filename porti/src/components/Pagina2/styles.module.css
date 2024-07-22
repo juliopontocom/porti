@@ -47,3 +47,23 @@
     font-size: 20px;
     line-height: 110%;
 }
+
+.icones{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    gap: 36px;
+    padding: 36px;
+}
+
+.icone{
+    width: 56px;
+    height: 56px;
+    fill: var(--brown-500);
+}
+
+.icone:hover{
+    cursor: pointer;
+    fill: var(--brown-600);
+    transition: 0.2;
+}

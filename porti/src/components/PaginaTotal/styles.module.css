@@ -1,4 +1,28 @@
-.PaginaTotal{
+/* styles.module.css */
+.PaginaTotal {
+    position: relative;
+  }
+  
+  .setas {
+    position: fixed;
+    right: 20px;
+    top: 40vh;
     display: flex;
     flex-direction: column;
-}
+    gap: 10px;
+    width: 10vw;
+  }
+  
+  .seta {
+    fill: var(--brown-500);
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+  }
+  
+  .seta:hover {
+    fill: var(--brown-600);
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  

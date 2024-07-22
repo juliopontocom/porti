@@ -88,7 +88,7 @@
     border: 3px solid var(--brown-500);
     color: var(--gray-100);
     border-radius: 8px;
-    padding: 4px 12px;
+    padding: 6px 12px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -98,24 +98,10 @@
 
 .botao:hover{
     cursor: pointer;
+    background-color: var(--brown-500);
 }
 
-.icone1{
-    width: 14px;
-    height: 14px;
-}
-
-.icone2{
-    width: 18px;
-    height: 18px;
-}
-
-.icone3{
-    width: 20px;
-    height: 20px;
-}
-
-.icone4{
-    width: 20px;
-    height: 20px;
+.icone{
+    width: 16px;
+    height: 16px;
 }

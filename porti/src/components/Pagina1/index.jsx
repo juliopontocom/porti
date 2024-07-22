@@ -1,20 +1,35 @@
 import React from 'react';
 import styles from './styles.module.css';
 import avatar from '../../assets/ava.png';
-import { BsArrowDownCircleFill, BsArrowUpCircleFill } from "react-icons/bs";
 
-const Pagina1 = ({ nextPageRef }) => {
-  const scrollToPage = (pageRef) => {
+const Pagina1 = ({ habilidadesRef, portifolioRef, contatoRef, nextPageRef, onPageChange }) => {
+  const scrollToPage = (pageRef, pageIndex) => {
     pageRef.current.scrollIntoView({ behavior: 'smooth' });
+    onPageChange(pageIndex);
   };
 
   return (
     <div className={styles.Pagina1}>
       <div className={styles.header}> 
           <div className={styles.palavras}>
-              <div className={styles.palavra}>Habilidades</div>
-              <div className={styles.palavra}>Portifólio</div>
-              <div className={styles.palavra}>Contato</div>
+              <div 
+                className={styles.palavra} 
+                onClick={() => scrollToPage(habilidadesRef, 1)}
+              >
+                Habilidades
+              </div>
+              <div 
+                className={styles.palavra} 
+                onClick={() => scrollToPage(portifolioRef, 2)}
+              >
+                Portifólio
+              </div>
+              <div 
+                className={styles.palavra} 
+                onClick={() => scrollToPage(contatoRef, 3)}
+              >
+                Contato
+              </div>
           </div>
       </div>
 
@@ -26,22 +41,15 @@ const Pagina1 = ({ nextPageRef }) => {
               <div className={styles.subtitulo}>
                   sou desenvolvedor full-stack
               </div>
-              <div className={styles.botaoVerMais}>
-                  Ver mais
+              <div 
+                className={styles.botaoVerMais} 
+                onClick={() => scrollToPage(nextPageRef, 1)}
+              >
+                Ver mais
               </div>
           </div>
           <div className={styles.corpoAvatar}>
               <img src={avatar} alt="" className={styles.avatar}/>
-              <div className={styles.setas}>
-                  <BsArrowUpCircleFill 
-                    className={styles.seta} 
-                    onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-                  />
-                  <BsArrowDownCircleFill 
-                    className={styles.seta} 
-                    onClick={() => scrollToPage(nextPageRef)} 
-                  />
-              </div>
           </div>
       </div>
     </div>
