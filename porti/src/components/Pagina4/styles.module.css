@@ -15,9 +15,10 @@
 }
 
 .titulo{
-    padding-left: 16px;
+    padding: 0px 0px 24px 16px;
     font-size: 36px;
     color: var(--brown-700);
+
 }
 
 .corpo{
