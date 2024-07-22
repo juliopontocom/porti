@@ -22,7 +22,11 @@
 }
 
 .fotoProjeto{
-    width: 534px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
     background-image: url("../../assets/card1.png");
     background-size: cover; 
     background-repeat: no-repeat;
@@ -32,6 +36,12 @@
     border-radius: 20px;
 
 }
+
+.imagemProjeto {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
 
 .descricaoProjeto{
     width: 100%;
@@ -71,6 +81,10 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    user-select: none;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none; 
 }
 
 .botoesEsquerda{

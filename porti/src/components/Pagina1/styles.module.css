@@ -32,6 +32,10 @@
     position: relative;
     cursor: pointer;
     padding: 12px 0;
+    user-select: none;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none; 
 }
 
 .palavra:after {    
@@ -95,6 +99,10 @@
     border: 3px solid var(--brown-500);
     font-size: 16px;
     cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none; 
 }
 
 .botaoVerMais:hover{
@@ -115,6 +123,10 @@
     width: 25vw;
     max-width: 500px;
     padding-right: 88px;
+    user-select: none;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none; 
 }
 
 .setas{
