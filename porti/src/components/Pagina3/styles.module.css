@@ -99,6 +99,7 @@
 .botao:hover{
     cursor: pointer;
     background-color: var(--brown-500);
+    transition: 0.2s;
 }
 
 .icone{

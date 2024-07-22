@@ -128,14 +128,17 @@
 .enviar{
     color: var(--gray-100);
     background-color: var(--brown-600);
-    padding: 4px 36px;
-    font-size: 20px;
+    padding: 6px 36px;
+    font-size: 16px;
     line-height: 100%;
     border: 3px solid var(--brown-500);
     border-radius: 16px;
 }
 .enviar:hover{
     cursor: pointer;
+    background-color: var(--brown-700);
+    border: 3px solid var(--brown-700);
+    transition: 0.2s;
 }
 
 
@@ -154,4 +157,6 @@
 
 .icone:hover{
     cursor: pointer;
+    fill: var(--brown-600);
+    transition: 0.2s;
 }
