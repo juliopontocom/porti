@@ -1,4 +1,4 @@
-.Pagina4{
+.Pagina4 {
     height: 100vh;
     width: 100%;
     display: flex;
@@ -6,7 +6,7 @@
     justify-content: center;
 }
 
-.corpoMaximo{
+.corpoMaximo {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,14 +14,14 @@
     width: 400px;
 }
 
-.titulo{
+.titulo {
     padding: 0px 0px 24px 16px;
     font-size: 36px;
     color: var(--brown-700);
 
 }
 
-.corpo{
+.corpo {
     display: flex;
     flex-direction: column;
     border: 3px solid var(--brown-500);
@@ -30,14 +30,14 @@
     background-color: var(--gray-200);
 }
 
-.inputs{
+.inputs {
     padding: 24px;
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
 
-.nome{
+.nome {
     width: 100%;
     border: 2px solid var(--brown-200);
     border-radius: 12px;
@@ -50,18 +50,18 @@
     color: var(--brown-700);
 }
 
-.nome::placeholder{
+.nome::placeholder {
     font-size: 20px;
     font-weight: 500;
     color: var(--brown-500);
     font-family: "League Spartan", sans-serif;
 }
 
-.nome:focus{
+.nome:focus {
     outline: none;
 }
 
-.email{
+.email {
     width: 100%;
     border: 2px solid var(--brown-200);
     border-radius: 12px;
@@ -74,23 +74,23 @@
     color: var(--brown-700);
 }
 
-.email::placeholder{
+.email::placeholder {
     font-size: 20px;
     font-weight: 500;
     color: var(--brown-500);
     font-family: "League Spartan", sans-serif;
 }
 
-.email:focus{
+.email:focus {
     outline: none;
-    
+
 }
 
-.email::content{
+.email::content {
     font-size: 16px;
 }
 
-.mensagem{
+.mensagem {
     font-family: "League Spartan", sans-serif;
     width: 100%;
     border: 2px solid var(--brown-200);
@@ -105,19 +105,19 @@
     color: var(--brown-700);
 }
 
-.mensagem::placeholder{
+.mensagem::placeholder {
     font-size: 20px;
     font-weight: 500;
     color: var(--brown-500);
-    font-style:normal;
+    font-style: normal;
     font-family: "League Spartan", sans-serif;
 }
 
-.mensagem:focus{
+.mensagem:focus {
     outline: none;
 }
 
-.botoes{
+.botoes {
     width: 100%;
     display: flex;
     align-items: center;
@@ -125,7 +125,7 @@
     padding: 0px 24px 24px 24px;
 }
 
-.enviar{
+.enviar {
     color: var(--gray-100);
     background-color: var(--brown-500);
     padding: 6px 36px;
@@ -134,18 +134,19 @@
     border: 3px solid var(--brown-600);
     border-radius: 16px;
     user-select: none;
-    -webkit-user-select: none; 
-    -moz-user-select: none;  
-    -ms-user-select: none; 
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
-.enviar:hover{
+
+.enviar:hover {
     cursor: pointer;
     background-color: var(--brown-600);
     border: 3px solid var(--brown-600);
     transition: 0.2s;
 }
 
-.enviar:active{
+.enviar:active {
     cursor: pointer;
     background-color: var(--brown-700);
     border: 3px solid var(--brown-700);
@@ -153,21 +154,383 @@
 }
 
 
-.icones{
+.icones {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
 }
 
-.icone{
+.icone {
     width: 38px;
     height: 38px;
     fill: var(--brown-500);
 }
 
-.icone:hover{
+.icone:hover {
     cursor: pointer;
     fill: var(--brown-600);
     transition: 0.2s;
+}
+
+/* Tablets */
+@media (max-width: 1024px) {
+    .Pagina4 {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: aliceblue;
+    }
+
+    .corpoMaximo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 400px;
+    }
+
+    .titulo {
+        padding: 0px 0px 24px 16px;
+        font-size: 36px;
+        color: var(--brown-700);
+
+    }
+
+    .corpo {
+        display: flex;
+        flex-direction: column;
+        border: 3px solid var(--brown-500);
+        border-radius: 12px;
+        width: 100%;
+        background-color: var(--gray-200);
+    }
+
+    .inputs {
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .nome {
+        width: 100%;
+        border: 2px solid var(--brown-200);
+        border-radius: 12px;
+        height: 48px;
+        font-size: 16px;
+        background-color: var(--gray-100);
+        padding-left: 16px;
+        font-weight: 400;
+        font-family: "League Spartan", sans-serif;
+        color: var(--brown-700);
+    }
+
+    .nome::placeholder {
+        font-size: 20px;
+        font-weight: 500;
+        color: var(--brown-500);
+        font-family: "League Spartan", sans-serif;
+    }
+
+    .nome:focus {
+        outline: none;
+    }
+
+    .email {
+        width: 100%;
+        border: 2px solid var(--brown-200);
+        border-radius: 12px;
+        height: 48px;
+        font-size: 16px;
+        background-color: var(--gray-100);
+        padding-left: 16px;
+        font-weight: 400;
+        font-family: "League Spartan", sans-serif;
+        color: var(--brown-700);
+    }
+
+    .email::placeholder {
+        font-size: 20px;
+        font-weight: 500;
+        color: var(--brown-500);
+        font-family: "League Spartan", sans-serif;
+    }
+
+    .email:focus {
+        outline: none;
+
+    }
+
+    .email::content {
+        font-size: 16px;
+    }
+
+    .mensagem {
+        font-family: "League Spartan", sans-serif;
+        width: 100%;
+        border: 2px solid var(--brown-200);
+        border-radius: 12px;
+        height: 144px;
+        font-size: 16px;
+        background-color: var(--gray-100);
+        padding-top: 8px;
+        padding-left: 16px;
+        resize: none;
+        font-weight: 400;
+        color: var(--brown-700);
+    }
+
+    .mensagem::placeholder {
+        font-size: 20px;
+        font-weight: 500;
+        color: var(--brown-500);
+        font-style: normal;
+        font-family: "League Spartan", sans-serif;
+    }
+
+    .mensagem:focus {
+        outline: none;
+    }
+
+    .botoes {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 24px 24px 24px;
+    }
+
+    .enviar {
+        color: var(--gray-100);
+        background-color: var(--brown-500);
+        padding: 6px 36px;
+        font-size: 16px;
+        line-height: 100%;
+        border: 3px solid var(--brown-600);
+        border-radius: 16px;
+        user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+    }
+
+    .enviar:hover {
+        cursor: pointer;
+        background-color: var(--brown-600);
+        border: 3px solid var(--brown-600);
+        transition: 0.2s;
+    }
+
+    .enviar:active {
+        cursor: pointer;
+        background-color: var(--brown-700);
+        border: 3px solid var(--brown-700);
+        transition: 0.2s;
+    }
+
+
+    .icones {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .icone {
+        width: 38px;
+        height: 38px;
+        fill: var(--brown-500);
+    }
+
+    .icone:hover {
+        cursor: pointer;
+        fill: var(--brown-600);
+        transition: 0.2s;
+    }
+
+
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .Pagina4 {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: antiquewhite;
+    }
+
+    .corpoMaximo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 400px;
+    }
+
+    .titulo {
+        padding: 0px 0px 24px 16px;
+        font-size: 36px;
+        color: var(--brown-700);
+
+    }
+
+    .corpo {
+        display: flex;
+        flex-direction: column;
+        border: 3px solid var(--brown-500);
+        border-radius: 12px;
+        width: 100%;
+        background-color: var(--gray-200);
+    }
+
+    .inputs {
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .nome {
+        width: 100%;
+        border: 2px solid var(--brown-200);
+        border-radius: 12px;
+        height: 48px;
+        font-size: 16px;
+        background-color: var(--gray-100);
+        padding-left: 16px;
+        font-weight: 400;
+        font-family: "League Spartan", sans-serif;
+        color: var(--brown-700);
+    }
+
+    .nome::placeholder {
+        font-size: 20px;
+        font-weight: 500;
+        color: var(--brown-500);
+        font-family: "League Spartan", sans-serif;
+    }
+
+    .nome:focus {
+        outline: none;
+    }
+
+    .email {
+        width: 100%;
+        border: 2px solid var(--brown-200);
+        border-radius: 12px;
+        height: 48px;
+        font-size: 16px;
+        background-color: var(--gray-100);
+        padding-left: 16px;
+        font-weight: 400;
+        font-family: "League Spartan", sans-serif;
+        color: var(--brown-700);
+    }
+
+    .email::placeholder {
+        font-size: 20px;
+        font-weight: 500;
+        color: var(--brown-500);
+        font-family: "League Spartan", sans-serif;
+    }
+
+    .email:focus {
+        outline: none;
+
+    }
+
+    .email::content {
+        font-size: 16px;
+    }
+
+    .mensagem {
+        font-family: "League Spartan", sans-serif;
+        width: 100%;
+        border: 2px solid var(--brown-200);
+        border-radius: 12px;
+        height: 144px;
+        font-size: 16px;
+        background-color: var(--gray-100);
+        padding-top: 8px;
+        padding-left: 16px;
+        resize: none;
+        font-weight: 400;
+        color: var(--brown-700);
+    }
+
+    .mensagem::placeholder {
+        font-size: 20px;
+        font-weight: 500;
+        color: var(--brown-500);
+        font-style: normal;
+        font-family: "League Spartan", sans-serif;
+    }
+
+    .mensagem:focus {
+        outline: none;
+    }
+
+    .botoes {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 24px 24px 24px;
+    }
+
+    .enviar {
+        color: var(--gray-100);
+        background-color: var(--brown-500);
+        padding: 6px 36px;
+        font-size: 16px;
+        line-height: 100%;
+        border: 3px solid var(--brown-600);
+        border-radius: 16px;
+        user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+    }
+
+    .enviar:hover {
+        cursor: pointer;
+        background-color: var(--brown-600);
+        border: 3px solid var(--brown-600);
+        transition: 0.2s;
+    }
+
+    .enviar:active {
+        cursor: pointer;
+        background-color: var(--brown-700);
+        border: 3px solid var(--brown-700);
+        transition: 0.2s;
+    }
+
+
+    .icones {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .icone {
+        width: 38px;
+        height: 38px;
+        fill: var(--brown-500);
+    }
+
+    .icone:hover {
+        cursor: pointer;
+        fill: var(--brown-600);
+        transition: 0.2s;
+    }
+
+
 }

@@ -103,3 +103,227 @@
     background-color: var(--brown-600);
     border: 3px solid var(--brown-600);
   }
+
+  /* Tablets */
+@media (max-width: 1024px) {
+    .Pagina2 {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: aliceblue;
+      }
+      
+      .corpo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 40%;
+        max-height: 400px;
+        gap: 64px;
+      }
+      
+      .corpoHabilidades {
+        background-color: var(--gray-200);
+        width: 410px;
+        height: 100%;
+        border: 3px solid var(--brown-400);
+        border-radius: 20px;
+      }
+      
+      .corpoSobreMim {
+        background-color: var(--gray-200);
+        width: 410px;
+        height: 100%;
+        padding: 0px 0px 12px 0px ;
+        border: 3px solid var(--brown-400);
+        border-radius: 20px;
+        transition: width 0.5s ease-in-out;
+      }
+      
+      .corpoSobreMim.expandido {
+        width: 800px;
+        margin: 0px 160px 0px 0px;
+        transition: 0.5s;
+      }
+      
+      .titulo {
+        color: var(--brown-700);
+        font-size: 28px;
+        padding-left: 36px;
+        padding-top: 36px;
+        width: 100%;
+      }
+      
+      .texto {
+        padding: 36px;
+        height: 70%;
+        width: 100%;
+        color: var(--brown-500);
+        font-size: 20px;
+        line-height: 110%;
+        text-align: justify;
+        overflow: hidden;
+      }
+      
+      .icones {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
+        gap: 36px;
+        padding: 36px;
+      }
+      
+      .icone {
+        width: 56px;
+        height: 56px;
+        fill: var(--brown-500);
+      }
+      
+      .icone:hover {
+        cursor: pointer;
+        fill: var(--brown-600);
+        transition: 0.2;
+      }
+      
+      .toggleButton {
+        margin: 20px;
+        padding: 6px 24px;
+        background-color: var(--brown-400);
+        color: var(--gray-100);
+        font-size: 16px;
+        border: 3px solid var(--brown-500);
+        border-radius: 8px;
+        cursor: pointer;
+        user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;  
+        -ms-user-select: none; 
+      }
+      
+      .toggleButton:hover {
+        background-color: var(--brown-500);
+        border: 3px solid var(--brown-500);
+      }
+      
+      .toggleButton:active {
+        background-color: var(--brown-600);
+        border: 3px solid var(--brown-600);
+      }
+  
+  
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .Pagina2 {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: antiquewhite;
+      }
+      
+      .corpo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 40%;
+        max-height: 400px;
+        gap: 64px;
+      }
+      
+      .corpoHabilidades {
+        background-color: var(--gray-200);
+        width: 410px;
+        height: 100%;
+        border: 3px solid var(--brown-400);
+        border-radius: 20px;
+      }
+      
+      .corpoSobreMim {
+        background-color: var(--gray-200);
+        width: 410px;
+        height: 100%;
+        padding: 0px 0px 12px 0px ;
+        border: 3px solid var(--brown-400);
+        border-radius: 20px;
+        transition: width 0.5s ease-in-out;
+      }
+      
+      .corpoSobreMim.expandido {
+        width: 800px;
+        margin: 0px 160px 0px 0px;
+        transition: 0.5s;
+      }
+      
+      .titulo {
+        color: var(--brown-700);
+        font-size: 28px;
+        padding-left: 36px;
+        padding-top: 36px;
+        width: 100%;
+      }
+      
+      .texto {
+        padding: 36px;
+        height: 70%;
+        width: 100%;
+        color: var(--brown-500);
+        font-size: 20px;
+        line-height: 110%;
+        text-align: justify;
+        overflow: hidden;
+      }
+      
+      .icones {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
+        gap: 36px;
+        padding: 36px;
+      }
+      
+      .icone {
+        width: 56px;
+        height: 56px;
+        fill: var(--brown-500);
+      }
+      
+      .icone:hover {
+        cursor: pointer;
+        fill: var(--brown-600);
+        transition: 0.2;
+      }
+      
+      .toggleButton {
+        margin: 20px;
+        padding: 6px 24px;
+        background-color: var(--brown-400);
+        color: var(--gray-100);
+        font-size: 16px;
+        border: 3px solid var(--brown-500);
+        border-radius: 8px;
+        cursor: pointer;
+        user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;  
+        -ms-user-select: none; 
+      }
+      
+      .toggleButton:hover {
+        background-color: var(--brown-500);
+        border: 3px solid var(--brown-500);
+      }
+      
+      .toggleButton:active {
+        background-color: var(--brown-600);
+        border: 3px solid var(--brown-600);
+      }
+ 
+ 
+}
