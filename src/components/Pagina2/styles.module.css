@@ -1,12 +1,12 @@
-.Pagina2{
+.Pagina2 {
     height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.corpo{
+  }
+  
+  .corpo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,56 +14,83 @@
     height: 40%;
     max-height: 400px;
     gap: 64px;
-}
-
-.corpoHabilidades{
+  }
+  
+  .corpoHabilidades {
     background-color: var(--gray-200);
     width: 410px;
     height: 100%;
     border: 3px solid var(--brown-400);
     border-radius: 20px;
-}
-
-.corpoSobreMim{
+  }
+  
+  .corpoSobreMim {
     background-color: var(--gray-200);
     width: 410px;
     height: 100%;
+    padding: 0px 0px 12px 0px ;
     border: 3px solid var(--brown-400);
     border-radius: 20px;
-}
-
-.titulo{
+    transition: width 0.5s ease-in-out;
+  }
+  
+  .corpoSobreMim.expandido {
+    width: 800px;
+    margin: 0px 160px 0px 0px;
+    transition: 0.5s;
+  }
+  
+  .titulo {
     color: var(--brown-700);
     font-size: 28px;
     padding-left: 36px;
     padding-top: 36px;
     width: 100%;
-}
-
-.texto{
+  }
+  
+  .texto {
     padding: 36px;
+    height: 70%;
     width: 100%;
     color: var(--brown-500);
     font-size: 20px;
     line-height: 110%;
-}
-
-.icones{
+    text-align: justify;
+    overflow: hidden;
+  }
+  
+  .icones {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto auto;
     gap: 36px;
     padding: 36px;
-}
-
-.icone{
+  }
+  
+  .icone {
     width: 56px;
     height: 56px;
     fill: var(--brown-500);
-}
-
-.icone:hover{
+  }
+  
+  .icone:hover {
     cursor: pointer;
     fill: var(--brown-600);
     transition: 0.2;
-}
+  }
+  
+  .toggleButton {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: var(--brown-500);
+    color: var(--gray-100);
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .toggleButton:hover {
+    background-color: var(--brown-600);
+  }
+  
