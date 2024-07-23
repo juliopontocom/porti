@@ -9,7 +9,7 @@ const projects = [
   {
     title: "Fábrica de promoções",
     date: "28/07/2024",
-    description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam necessitatibus voluptatem praesentium quis, itaque adipisci corporis cum, alias, pariatur maxime sapiente ullam perspiciatis incidunt accusamus blanditiis quaerat. Dicta, ipsa facere.",
+    description: "Esse projeto ainda não está concluido!",
     imageUrl: "../../assets/card1.png", // URL de exemplo para a imagem do projeto
   },
   {
