@@ -189,12 +189,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: start;
-        width: 400px;
+        width: 360px;
     }
 
     .titulo {
-        padding: 0px 0px 24px 16px;
-        font-size: 36px;
+        padding: 0px 0px 20px 16px;
+        font-size: 28px;
         color: var(--brown-700);
 
     }
@@ -209,7 +209,7 @@
     }
 
     .inputs {
-        padding: 24px;
+        padding: 16px;
         display: flex;
         flex-direction: column;
         gap: 12px;
@@ -229,7 +229,7 @@
     }
 
     .nome::placeholder {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 500;
         color: var(--brown-500);
         font-family: "League Spartan", sans-serif;
@@ -253,7 +253,7 @@
     }
 
     .email::placeholder {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 500;
         color: var(--brown-500);
         font-family: "League Spartan", sans-serif;
@@ -284,7 +284,7 @@
     }
 
     .mensagem::placeholder {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 500;
         color: var(--brown-500);
         font-style: normal;
@@ -300,7 +300,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 0px 24px 24px 24px;
+        padding: 0px 24px 20px 24px;
     }
 
     .enviar {

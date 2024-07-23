@@ -51,8 +51,9 @@
 
   .setas {
     position: fixed;
+    height: auto;
     right: 20px;
-    top: 40vh;
+    top: 70vh;
     display: flex;
     flex-direction: column;
     gap: 10px;
