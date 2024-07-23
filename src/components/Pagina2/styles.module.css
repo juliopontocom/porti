@@ -81,16 +81,25 @@
   
   .toggleButton {
     margin: 20px;
-    padding: 10px 20px;
-    background-color: var(--brown-500);
+    padding: 6px 24px;
+    background-color: var(--brown-400);
     color: var(--gray-100);
     font-size: 16px;
-    border: none;
-    border-radius: 5px;
+    border: 3px solid var(--brown-500);
+    border-radius: 8px;
     cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;  
+    -ms-user-select: none; 
   }
   
   .toggleButton:hover {
-    background-color: var(--brown-600);
+    background-color: var(--brown-500);
+    border: 3px solid var(--brown-500);
   }
   
+  .toggleButton:active {
+    background-color: var(--brown-600);
+    border: 3px solid var(--brown-600);
+  }

@@ -1,4 +1,8 @@
 /* styles.module.css */
+*{
+  font-family: "League Spartan", sans-serif;
+  font-weight: 500;
+}
 .PaginaTotal {
     position: relative;
   }
@@ -24,5 +28,9 @@
     fill: var(--brown-600);
     cursor: pointer;
     transition: 0.2s;
+  }
+
+  .seta:active{
+    fill: var(--brown-700);
   }
   

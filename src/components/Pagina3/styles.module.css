@@ -82,8 +82,8 @@
     justify-content: space-between;
     width: 100%;
     user-select: none;
-    -webkit-user-select: none; /* Safari */
-    -moz-user-select: none;    /* Firefox */
+    -webkit-user-select: none; 
+    -moz-user-select: none;  
     -ms-user-select: none; 
 }
 
@@ -113,6 +113,13 @@
 .botao:hover{
     cursor: pointer;
     background-color: var(--brown-500);
+    border: 3px solid var(--brown-500);
+    transition: 0.2s;
+}
+
+.botao:active{
+    background-color: var(--brown-600);
+    border: 3px solid var(--brown-600);
     transition: 0.2s;
 }
 
