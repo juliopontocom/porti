@@ -97,8 +97,8 @@
   .setas {
     position: fixed;
     height: auto;
-    right: 20px;
-    top: 70vh;
+    right: 36px;
+    top: 80vh;
     display: flex;
     flex-direction: column;
     gap: 10px;

@@ -277,17 +277,18 @@
     }
 
     .corpoMaximo {
-        width: 480px;
+        width: 85%;
+        height: 85%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        justify-content: center;
+        justify-content: flex-start;
         gap: 20px;
     }
 
     .titulo {
         padding-left: 16px;
-        font-size: 28px;
+        font-size: 24px;
         color: var(--brown-700);
     }
 
@@ -330,7 +331,7 @@
 
     .tituloProjeto {
         color: var(--brown-700);
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .dataProjeto {
@@ -342,7 +343,7 @@
         color: var(--brown-500);
         padding: 16px 24px 8px 24px;
         text-align: justify;
-        font-size: 14px;
+        font-size: 12px;
     }
 
 
@@ -360,12 +361,16 @@
 
     .botoesEsquerda {
         display: flex;
+        flex-direction: column;
         gap: 8px;
+        width: 40vw;
     }
 
     .botoesDireita {
         display: flex;
+        flex-direction: column;
         gap: 8px;
+        width: 40vw;
     }
 
     .botao {
@@ -373,11 +378,11 @@
         border: 3px solid var(--brown-500);
         color: var(--gray-100);
         border-radius: 8px;
-        padding: 4px 8px;
+        padding: 4px 6px;
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 8px;
+        gap: 4px;
         font-size: 14px;
     }
 
