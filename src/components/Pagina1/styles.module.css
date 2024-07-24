@@ -280,7 +280,6 @@
 }
 
 @media (max-width: 767px) {
-
     .Pagina1 {
         height: 100vh;
         width: 100%;
@@ -310,7 +309,7 @@
 
     .palavra {
         color: var(--gray-500);
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 400;
         position: relative;
         cursor: pointer;
@@ -343,7 +342,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 80vw;
+        width: 85vw;
         max-width: 1800px;
     }
 
@@ -354,11 +353,12 @@
         justify-content: center;
         padding-left: 5vw;
         gap: 12px;
+
     }
 
     .titulo {
         line-height: 100%;
-        font-size: 56px;
+        font-size: 48px;
         color: var(--brown-600);
     }
 
@@ -369,7 +369,7 @@
 
     .subtitulo {
         color: var(--brown-500);
-        font-size: 24px;
+        font-size: 20px;
         padding-bottom: 8px;
         font-weight: 400;
     }
@@ -380,7 +380,7 @@
         background-color: var(--brown-500);
         border-radius: 100px;
         border: 3px solid var(--brown-600);
-        font-size: 16px;
+        font-size: 14px;
         cursor: pointer;
         user-select: none;
         -webkit-user-select: none;
@@ -404,17 +404,16 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 48px;
     }
 
     .avatar {
-        min-width: 400px;
+        min-width: 320px;
         width: 25vw;
         max-width: 500px;
-        padding-right: 88px;
         user-select: none;
         -webkit-user-select: none;
         -moz-user-select: none;
         -ms-user-select: none;
+        padding: 0px 0px 0px 32px;
     }
 }

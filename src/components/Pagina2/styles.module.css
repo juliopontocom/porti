@@ -4,9 +4,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .corpo {
+}
+
+.corpo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,41 +14,41 @@
     height: 40%;
     max-height: 400px;
     gap: 64px;
-  }
-  
-  .corpoHabilidades {
+}
+
+.corpoHabilidades {
     background-color: var(--gray-200);
     width: 410px;
     height: 100%;
     border: 3px solid var(--brown-400);
     border-radius: 20px;
-  }
-  
-  .corpoSobreMim {
+}
+
+.corpoSobreMim {
     background-color: var(--gray-200);
     width: 410px;
     height: 100%;
-    padding: 0px 0px 12px 0px ;
+    padding: 0px 0px 12px 0px;
     border: 3px solid var(--brown-400);
     border-radius: 20px;
     transition: width 0.5s ease-in-out;
-  }
-  
-  .corpoSobreMim.expandido {
+}
+
+.corpoSobreMim.expandido {
     width: 800px;
     margin: 0px 160px 0px 0px;
     transition: 0.5s;
-  }
-  
-  .titulo {
+}
+
+.titulo {
     color: var(--brown-700);
     font-size: 28px;
     padding-left: 36px;
     padding-top: 36px;
     width: 100%;
-  }
-  
-  .texto {
+}
+
+.texto {
     padding: 36px;
     height: 70%;
     width: 100%;
@@ -57,29 +57,29 @@
     line-height: 110%;
     text-align: justify;
     overflow: hidden;
-  }
-  
-  .icones {
+}
+
+.icones {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto auto;
     gap: 36px;
     padding: 36px;
-  }
-  
-  .icone {
+}
+
+.icone {
     width: 56px;
     height: 56px;
     fill: var(--brown-500);
-  }
-  
-  .icone:hover {
+}
+
+.icone:hover {
     cursor: pointer;
     fill: var(--brown-600);
     transition: 0.2;
-  }
-  
-  .toggleButton {
+}
+
+.toggleButton {
     margin: 20px;
     padding: 6px 24px;
     background-color: var(--brown-400);
@@ -90,21 +90,21 @@
     cursor: pointer;
     user-select: none;
     -webkit-user-select: none;
-    -moz-user-select: none;  
-    -ms-user-select: none; 
-  }
-  
-  .toggleButton:hover {
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.toggleButton:hover {
     background-color: var(--brown-500);
     border: 3px solid var(--brown-500);
-  }
-  
-  .toggleButton:active {
+}
+
+.toggleButton:active {
     background-color: var(--brown-600);
     border: 3px solid var(--brown-600);
-  }
+}
 
-  /* Tablets */
+/* Tablets */
 @media (max-width: 1024px) {
     .Pagina2 {
         height: 100vh;
@@ -113,9 +113,9 @@
         align-items: center;
         justify-content: center;
         background-color: aliceblue;
-      }
-      
-      .corpo {
+    }
+
+    .corpo {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -124,40 +124,40 @@
         max-height: 400px;
         gap: 32px;
         margin-bottom: 64px;
-      }
-      
-      .corpoHabilidades {
+    }
+
+    .corpoHabilidades {
         background-color: var(--gray-200);
         width: 320px;
         height: 100%;
         border: 3px solid var(--brown-400);
         border-radius: 20px;
-      }
-      
-      .corpoSobreMim {
+    }
+
+    .corpoSobreMim {
         background-color: var(--gray-200);
         width: 320px;
         height: 100%;
-        padding: 0px 0px 12px 0px ;
+        padding: 0px 0px 12px 0px;
         border: 3px solid var(--brown-400);
         border-radius: 20px;
         transition: width 0.5s ease-in-out;
-      }
-      
-      .corpoSobreMim.expandido {
+    }
+
+    .corpoSobreMim.expandido {
         width: 500px;
         transition: 0.5s;
-      }
-      
-      .titulo {
+    }
+
+    .titulo {
         color: var(--brown-700);
         font-size: 24px;
         padding-left: 30px;
         padding-top: 30px;
         width: 100%;
-      }
-      
-      .texto {
+    }
+
+    .texto {
         padding: 36px;
         height: 70%;
         width: 100%;
@@ -166,29 +166,29 @@
         line-height: 110%;
         text-align: justify;
         overflow: hidden;
-      }
-      
-      .icones {
+    }
+
+    .icones {
         display: grid;
         grid-template-columns: auto auto auto auto;
         grid-template-rows: auto auto auto auto;
         gap: 36px;
         padding: 30px;
-      }
-      
-      .icone {
+    }
+
+    .icone {
         width: 38px;
         height: 38px;
         fill: var(--brown-500);
-      }
-      
-      .icone:hover {
+    }
+
+    .icone:hover {
         cursor: pointer;
         fill: var(--brown-600);
         transition: 0.2;
-      }
-      
-      .toggleButton {
+    }
+
+    .toggleButton {
         margin: 20px;
         padding: 6px 24px;
         background-color: var(--brown-400);
@@ -199,21 +199,21 @@
         cursor: pointer;
         user-select: none;
         -webkit-user-select: none;
-        -moz-user-select: none;  
-        -ms-user-select: none; 
-      }
-      
-      .toggleButton:hover {
+        -moz-user-select: none;
+        -ms-user-select: none;
+    }
+
+    .toggleButton:hover {
         background-color: var(--brown-500);
         border: 3px solid var(--brown-500);
-      }
-      
-      .toggleButton:active {
+    }
+
+    .toggleButton:active {
         background-color: var(--brown-600);
         border: 3px solid var(--brown-600);
-      }
-  
-  
+    }
+
+
 }
 
 /* Mobile */
@@ -225,82 +225,82 @@
         align-items: center;
         justify-content: center;
         background-color: antiquewhite;
-      }
-      
-      .corpo {
+    }
+
+    .corpo {
         display: flex;
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 40%;
+        height: 35%;
         max-height: 400px;
-        gap: 64px;
-      }
-      
-      .corpoHabilidades {
+        gap: 32px;
+        margin-bottom: 64px;
+    }
+
+    .corpoHabilidades {
         background-color: var(--gray-200);
-        width: 410px;
+        width: 320px;
         height: 100%;
         border: 3px solid var(--brown-400);
         border-radius: 20px;
-      }
-      
-      .corpoSobreMim {
+    }
+
+    .corpoSobreMim {
         background-color: var(--gray-200);
-        width: 410px;
+        width: 320px;
         height: 100%;
-        padding: 0px 0px 12px 0px ;
+        padding: 0px 0px 12px 0px;
         border: 3px solid var(--brown-400);
         border-radius: 20px;
         transition: width 0.5s ease-in-out;
-      }
-      
-      .corpoSobreMim.expandido {
-        width: 800px;
-        margin: 0px 160px 0px 0px;
+    }
+
+    .corpoSobreMim.expandido {
+        width: 500px;
         transition: 0.5s;
-      }
-      
-      .titulo {
+    }
+
+    .titulo {
         color: var(--brown-700);
-        font-size: 28px;
-        padding-left: 36px;
-        padding-top: 36px;
+        font-size: 24px;
+        padding-left: 30px;
+        padding-top: 30px;
         width: 100%;
-      }
-      
-      .texto {
+    }
+
+    .texto {
         padding: 36px;
         height: 70%;
         width: 100%;
         color: var(--brown-500);
-        font-size: 20px;
+        font-size: 16px;
         line-height: 110%;
         text-align: justify;
         overflow: hidden;
-      }
-      
-      .icones {
+    }
+
+    .icones {
         display: grid;
         grid-template-columns: auto auto auto auto;
         grid-template-rows: auto auto auto auto;
         gap: 36px;
-        padding: 36px;
-      }
-      
-      .icone {
-        width: 56px;
-        height: 56px;
+        padding: 30px;
+    }
+
+    .icone {
+        width: 38px;
+        height: 38px;
         fill: var(--brown-500);
-      }
-      
-      .icone:hover {
+    }
+
+    .icone:hover {
         cursor: pointer;
         fill: var(--brown-600);
         transition: 0.2;
-      }
-      
-      .toggleButton {
+    }
+
+    .toggleButton {
         margin: 20px;
         padding: 6px 24px;
         background-color: var(--brown-400);
@@ -311,19 +311,20 @@
         cursor: pointer;
         user-select: none;
         -webkit-user-select: none;
-        -moz-user-select: none;  
-        -ms-user-select: none; 
-      }
-      
-      .toggleButton:hover {
+        -moz-user-select: none;
+        -ms-user-select: none;
+    }
+
+    .toggleButton:hover {
         background-color: var(--brown-500);
         border: 3px solid var(--brown-500);
-      }
-      
-      .toggleButton:active {
+    }
+
+    .toggleButton:active {
         background-color: var(--brown-600);
         border: 3px solid var(--brown-600);
-      }
- 
- 
+    }
+
+
+
 }
